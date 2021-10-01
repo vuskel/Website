@@ -2,9 +2,9 @@
 
 **Built With**
 
-    1. 👩‍💻 HTML
-    2. 🎨 CSS
-    3. 🧙‍♂️ Animate on scoll (AOS)
+- 👩‍💻 HTML
+- 🎨 CSS
+- 🧙‍♂️ Animate on scoll (AOS)
 
 **Visit website:** [fayas.me](https://fayas.me)
 
