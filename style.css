@@ -17,8 +17,8 @@ body {
   padding: 30px;
   margin: 0;
   display: flex;
-  /* change to row, you might like the style */
-  flex-direction: column;
+  /* change to column, you might like the style */
+  flex-direction: row;
   align-items: center;
 }
 
