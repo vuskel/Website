@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Fayas Noushad</title>
-    <link
-      rel="icon"
-      href="https://github.com/FayasNoushad.png"
-      type="image/x-icon"
-    />
+    <title>Fayas Noushad - Personal Website</title>
+    <link rel="icon" href="https://github.com/FayasNoushad.png" type="image/x-icon"/>
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <!-- animation css -->
@@ -19,11 +15,7 @@
         <a href="#donate">Donate</a>
       </h2>
       <h1>
-        <img
-          data-aos="zoom-in"
-          alt="Profile"
-          src="https://github.com/FayasNoushad.png"
-        />
+        <img data-aos="zoom-in" alt="Profile" src="https://github.com/FayasNoushad.png"/>
         <br/>
         Fayas Noushad
       </h1>
@@ -34,31 +26,14 @@
       <p>
         My name is <b>Fayas</b>. I am a 15 years old boy and I was born on 30th
         December in 2005. I am a 10th standard finished student. I'm living in
-        <a
-          href="https://en.m.wikipedia.org/wiki/Palakkad_district"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Palakkad, Kerala, India</a
-        >. I know
-        <a
-          href="https://en.m.wikipedia.org/wiki/Malayalam"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Malayalam</a
-        >,
-        <a
-          href="https://en.m.wikipedia.org/wiki/Tamil"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Tamil</a
-        >, and
-        <a
-          href="https://en.m.wikipedia.org/wiki/English"
-          target="_blank"
-          rel="noopener noreferrer"
-          >English</a
-        >
-        languages. I am an Opensource Developer.
+        <a href="https://en.m.wikipedia.org/wiki/Palakkad_district" target="_blank" rel="noopener noreferrer">Palakkad, Kerala, India</a>.
+        I know
+        <a href="https://en.m.wikipedia.org/wiki/Malayalam" target="_blank" rel="noopener noreferrer">Malayalam</a>,
+        <a href="https://en.m.wikipedia.org/wiki/Tamil" target="_blank" rel="noopener noreferrer">Tamil</a>, and
+        <a href="https://en.m.wikipedia.org/wiki/English" target="_blank"rel="noopener noreferrer">English</a>
+        languages.
+        I am an Opensource Developer.
+        You can check my brief bio <a href="/bio">here</a>.
       </p>
     </section>
     <hr width="100%"/>
@@ -122,6 +97,35 @@
 
     <!-- animation script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript">
+      var pages = {
+        "home": "index.html",
+        "bio": "bio.html",
+        "404": "404.html"
+      };
+      var directory = window.location.href;
+      function data(directory){
+        fetch(directory)
+          .then((response) => {
+            return response.text();
+          })
+          .then((data) => {
+            document.getElementById(id).innerHTML = data;
+          })
+          .catch((error) => {
+            console.error('Error:', error);
+          });
+      }
+      if(!pages[directory] && !directory){
+        data(pages["home"]);
+      }
+      else if(pages[directory]){
+        data(pages[directory]);
+      }
+      else{
+        data(pages["404"]);
+      }
+    </script>
     <script>
       AOS.init();
     </script>
