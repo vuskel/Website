@@ -78,6 +78,13 @@ p {
   font-size: 25px;
 }
 
+li {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-size: 25px;
+}
+
 a {
   color: #02a9f4;
 }
