@@ -22,6 +22,17 @@ body {
   align-items: center;
 }
 
+header a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+header a:hover{
+  color: #02a9f4;
+  transition: 0.4s;
+}
+
 h1 {
   color: #fff;
   font-size: 50px;
