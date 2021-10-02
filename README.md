@@ -12,11 +12,6 @@ This ia my Personal website repository of Fayas Noushad, where you can get acade
 
 ---
 
-## Screenshot
-
-[![image](https://user-images.githubusercontent.com/58919619/135618514-6ab58cca-7e8b-4f5d-8971-b65e372a4cc6.png)](https://fayas.me)
-
----
 
 ## Credits
 
