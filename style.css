@@ -23,32 +23,32 @@ body {
 }
 
 header {
-  width: calc(min(80vw, calc(100% - 40px)) + 8px);
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-flow: row wrap;
-  padding: 20px 4px;
+  padding: 20px 40px;
   position: fixed;
   top: 0;
-  left: calc(max(10vw, 20px) - 4px);
+  background: #ffffffff;
   box-sizing: border-box;
+  z-index: 9999;
 }
 
 header a {
   text-decoration: none;
-  color: #02a9f4;
+  color: #000000;
   margin: 10px;
 }
 
-/*
 header a:hover{
   color: #02a9f4;
   transition: 0.4s;
 }
-*/
 
 h1 {
+  margin-top: 30px;
   color: #fff;
   font-size: 50px;
   letter-spacing: 2px;
@@ -76,11 +76,13 @@ a {
   color: #02a9f4;
 }
 
+
 /* sections */
 
 section {
   font-family: "Poppins";
   text-align: center;
+  margin: 50px 0;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -98,6 +100,7 @@ section h3 {
 }
 
 /*contributed b aryan */
+
 
   .zoom-effect1{
     -webkit-transition: 0.4s ease;
