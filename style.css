@@ -53,6 +53,7 @@ header a:hover {
 
 h1 {
     margin-top: 30px;
+    display: flex;
     color: #fff;
     font-size: 50px;
     letter-spacing: 2px;
