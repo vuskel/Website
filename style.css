@@ -81,3 +81,16 @@ section h3 {
 .section-1 {
   text-align: center;
 }
+
+/*contributed b aryan */
+
+
+
+  .zoom-effect1{
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+  }
+  .zoom-effect1:hover{
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+  }
