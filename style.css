@@ -2,124 +2,126 @@
 
 /* reset browser default styling */
 * {
-  margin: 0;
-  box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 html {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  background-color: #22272d;
-  color: #fff;
-  padding: 30px;
-  margin: 0;
-  display: flex;
-  /* change to row, you might like the style */
-  flex-direction: column;
-  align-items: center;
+    background-color: #22272d;
+    color: #fff;
+    padding: 30px;
+    margin: 0;
+    display: flex;
+    /* change to row, you might like the style */
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-flow: row wrap;
-  padding: 20px 40px;
-  position: fixed;
-  top: 0;
-  background: #ffffffff;
-  box-sizing: border-box;
-  z-index: 9999;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    background: #283647;
+    box-sizing: border-box;
+    z-index: 9999;
+    position: absolute;
 }
 
 header a {
-  text-decoration: none;
-  color: #000000;
-  margin: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding-right: 40px;
+    color: #ffffff;
+    margin: 10px;
 }
 
-header a:hover{
-  color: #02a9f4;
-  transition: 0.4s;
+header a:hover {
+    color: #5790aa;
+    transition: 0.4s;
 }
 
 h1 {
-  margin-top: 30px;
-  color: #fff;
-  font-size: 50px;
-  letter-spacing: 2px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 2px;
 }
 
 h2 {
-  color: #fff;
-  font-size: 35px;
+    color: #fff;
+    font-size: 35px;
 }
 
 h3 {
-  color: #fff;
-  font-size: 30px;
-  display: flex;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
 }
 
 h4 {
-  color: #fff;
-  font-size: 28px;
-  display: flex;
+    color: #fff;
+    font-size: 28px;
+    display: flex;
 }
 
 p {
-  padding: 0;
-  margin: 0;
-  color: #fff;
-  font-size: 25px;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 25px;
 }
 
 li {
-  padding: 0;
-  margin: 0;
-  color: #fff;
-  font-size: 25px;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 25px;
 }
 
 a {
-  color: #02a9f4;
+    color: #02a9f4;
 }
-
 
 /* sections */
 
 section {
-  font-family: "Poppins";
-  text-align: center;
-  margin: 50px 0;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0.7rem;
+    font-family: "Poppins";
+    text-align: center;
+    margin: 50px 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
 }
 
 section h3 {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 .section-1 {
-  text-align: center;
+    text-align: center;
 }
 
 /*contributed b aryan */
 
-
-  .zoom-effect1{
+.zoom-effect1 {
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
-  }
-  .zoom-effect1:hover{
+}
+.zoom-effect1:hover {
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
-  }
+}
