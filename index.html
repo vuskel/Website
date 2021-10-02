@@ -82,33 +82,6 @@
 
     <!-- animation script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script type="text/javascript">
-      var pages = {
-        "home": "index.html",
-        "bio": "bio.html",
-        "404": "404.html",
-      };
-      var directory = window.location.href;
-      function data(directory) {
-        fetch(directory)
-          .then((response) => {
-            return response.text();
-          })
-          .then((data) => {
-            document.getElementById(id).innerHTML = data;
-          })
-          .catch((error) => {
-            console.error("Error:", error);
-          });
-      }
-      if (!pages[directory] && !directory) {
-        data(pages["home"]);
-      } else if (pages[directory]) {
-        data(pages[directory]);
-      } else {
-        data(pages["404"]);
-      }
-    </script>
     <script>
       AOS.init();
     </script>
