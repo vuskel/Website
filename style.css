@@ -32,20 +32,21 @@ header {
   position: fixed;
   top: 0;
   left: calc(max(10vw, 20px) - 4px);
-  background: #ffffffff;
   box-sizing: border-box;
 }
 
 header a {
   text-decoration: none;
-  color: #000000;
+  color: #02a9f4;
   margin: 10px;
 }
 
+/*
 header a:hover{
   color: #02a9f4;
   transition: 0.4s;
 }
+*/
 
 h1 {
   color: #fff;
@@ -99,7 +100,7 @@ section h3 {
 /*contributed b aryan */
 
 
-
+/*
   .zoom-effect1{
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
@@ -108,3 +109,4 @@ section h3 {
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
   }
+*/
