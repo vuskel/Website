@@ -149,7 +149,7 @@ section h3 {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-.content-table thead tr {
+.content-table thread tr {
   text-align: center;
   font-weight: bold;
 }
