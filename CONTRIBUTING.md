@@ -2,6 +2,8 @@
 
 Contributors are always welcome!!
 
+---
+
 ## How To Contribute
 
 1.  **Fork** this repo on GitHub
@@ -11,4 +13,8 @@ Contributors are always welcome!!
 5.  **Push** your work back up to your fork
 6.  Submit a **Pull request** so that I can review your changes
 
-NOTE: Make sure to merge the latest from "upstream" before making a pull request!
+---
+
+> **Note:** Make sure to merge the latest from "upstream" before making a pull request!
+
+---
