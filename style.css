@@ -91,7 +91,14 @@ li {
 }
 
 a {
-    color: #02a9f4;
+    text-decoration: none;
+    color: white;
+    transition: color 0.25s;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
 }
 
 /* sections */
