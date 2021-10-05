@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    background-color: white;
+}
+
+h1 {
+    color: #22272d;
+    font-size: 18px;
+}
+
+.header > h1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+section {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+}
+
+section.donateHeader {
+    background: black;
+}
+
+section.donate-content {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.content-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+}
+
+.card > .box {
+    width: 150px;
+    border: 2px solid #22272d;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: #22272d;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.box {
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+}
+
+.card > .box:hover {
+    background-color: #22272d;
+    color: white;
+}
+
+.card > .box:nth-child(odd) {
+    margin-right: 20px;
+}
+
+.card > .box:last-child {
+    width: 80%;
+    margin-right: 0;
+}
