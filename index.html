@@ -3,6 +3,7 @@
   <head>
     <title>Fayas Noushad - Personal Website</title>
     <link rel="icon" href="https://github.com/FayasNoushad.png" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="./styles/style.css" rel="stylesheet" type="text/css" />
 
     <!-- animation css -->
@@ -15,6 +16,13 @@
       <a href="/projects">Projects</a>
       <a href="/donate">Donate</a>
     </header>
+
+    <!-- Scroll to top button -->
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    
+    
     <hr width="100%"/>
     <br/>
     <br/>
@@ -83,6 +91,17 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+
+      // Scroll to top button script
+      const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+      btnScrollToTop.addEventListener("click", function(){
+        window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+      });
+    });
     </script>
   </body>
 </html>
