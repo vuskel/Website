@@ -2,14 +2,16 @@
 <html>
   <head>
     <title>404 - Page Not found</title>
-    <meta
-      http-equiv="refresh"
-      content="0; URL=https://fayas.me"
-    />
   </head>
   <body>
-    <h1 align="center">
-      <font size=10>404 - Page not found</font>
-    </h1>
+    <h1 style="text-align: center">Oops! 404 - Page not found</h1>
+
+    <script>
+        //Redirects to home after a delay
+        var tID = setTimeout(function () {
+            window.location.href = "https://fayas.me";
+            window.clearTimeout(tID);	
+        }, 2000);
+    </script>
   </body>
 </html>
