@@ -4,14 +4,28 @@
     <title>404 - Page Not found</title>
   </head>
   <body>
-    <h1 style="text-align: center">Oops! 404 - Page not found</h1>
+    <div style="text-align: center">
+      <h1>Oops! 404 - Page not found</h1>
+      <p>Redirecting to home in <span id="countdown"></span></p>
+    </div>
 
     <script>
         //Redirects to home after a delay
-        var tID = setTimeout(function () {
+        let remainingSeconds = 5;
+        const countDown = document.getElementById("countdown");
+        if (countDown)
+          countDown.innerHTML = remainingSeconds;
+
+        const intervalId = setInterval(() => {
+          remainingSeconds--;
+
+          if (remainingSeconds === 0) {
             window.location.href = "/";
-            window.clearTimeout(tID);	
-        }, 2000);
+            window.clearInterval(intervalId);	
+          } else if (countDown) {            
+            countDown.innerHTML = remainingSeconds;
+          }          
+        }, 1000);
     </script>
   </body>
 </html>
