@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fayas Noushad - Timeline</title>
+    <link rel="icon" href="icon.png" type="image/x-icon"/>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css"/>
+    
+    <!-- animation css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    
+  </head>
+  <body>
+    
+    <!-- Header -->
+    <header id="header"></header>
+    
+    <hr width="100%"/>
+    
+    <!-- Heading -->
+    <section data-aos="fade-down" class="section-1" style="color: white">
+      <h1>Fayas Noushad - Timeline</h1>
+    </section>
+    
+    <hr width="100%"/>
+    
+    <!-- Timeline -->
+    <section data-aos="fade-up" class="section-2" id="timeline">
+      <li>30/12/2005 - Born on 2005</li>
+      <li>2009 - Joined on Salafi School</li>
+      <li>2017 - Joined on Parli School</li>
+      <li>2019 - Joined on Puliyaparamb School</li>
+      <li>2021 - Started Creating Opensource Repositories</li>
+    </section>
+    
+    <hr width="100%"/>
+    
+    <!-- Footer -->
+    <section data-aos="fade-up" class="section-3" id="footer"></section>
+    <hr width="100%"/>
+    
+    <!-- animation script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+    <!-- Common Script -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+    </script>
+    <script> 
+      $(function(){
+        $("#header").load("/common/header.html");
+        $("#footer").load("/common/footer.html");
+      });
+    </script>
+    
+  </body>
+</html>
