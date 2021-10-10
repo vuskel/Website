@@ -2,66 +2,57 @@
 <html>
   <head>
     <title>Fayas Noushad - Donate</title>
-    <link rel="icon" href="https://github.com/FayasNoushad.png" type="image/x-icon"/>
-    <link href="../styles/style.css" rel="stylesheet" type="text/css"/>
-    <link href="../styles/donate.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" href="icon.png" type="image/x-icon"/>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css"/>
+    <link href="/styles/donate.css" rel="stylesheet" type="text/css"/>
+    
     <!-- animation css -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    
   </head>
   <body>
-    <header>
-      <a href="/">Home</a>
-      <a href="/accounts">Accounts</a>
-      <a href="/projects">Projects</a>
-      <a href="/donate">Donate</a>
-    </header>
+    
+    <!-- Header -->
+    <header id="header"></header>
+    
+    <!-- Heading -->
     <section data-aos="fade-down" class="section-1" style="color: white">
       <h1>Fayas Noushad - Donate</h1>
     </section>
+    
     <hr width="100%"/>
+    
+    <!-- Bank Account -->
     <section data-aos="fade-up" class="section-2" id="bank-account">
       <h2>Bank Account</h2>
       <br/>
       <div class="donate-content">
         <div class="row1">
-          <div class="box">
-            Account number
-          </div>
-
-          <div class="box">
-            IFSC code
-          </div>
-
-          <div class="box">
-            SWIFT code
-          </div>
+          <div class="box">Account number</div>
+          <div class="box">IFSC code</div>
+          <div class="box">SWIFT code</div>
         </div>
-
         <div class="row2">
-          <div class="box">
-            MICR code
-          </div>
-        
-          <div class="box">
-            Branch code
-          </div>
-        
-          <div class="box">
-            Pin
-          </div>
+          <div class="box">MICR code</div>
+          <div class="box">Branch code</div>
+          <div class="box">Pin</div>
         </div>
-
         <div class="row3">
-          <div class="box">
-            Address
-          </div>
+          <div class="box">Address</div>
         </div>
       </div>
     </section>
+    
+    <hr width="100%"/>
+    
+    <!-- Footer -->
+    <section data-aos="fade-up" class="section-3" id="footer"></section>
+    
     <hr width="100%"/>
 
     <!-- animation script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
     <script>
       AOS.init();
 
@@ -129,5 +120,19 @@
         });
       });
     </script>
+    
+    <!-- Common Script -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+    </script>
+    <script> 
+      $(function(){
+        $("#header").load("/common/header.html");
+        $("#footer").load("/common/footer.html");
+      });
+    </script>
+    
   </body>
 </html>
