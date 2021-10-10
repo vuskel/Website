@@ -191,6 +191,10 @@ section h3 {
   border-bottom: 2px solid #fff;
 }
 
+.content-table table, th, td {
+    border: 3px solid white;
+}
+
 /* CSS for scroll to top button */
 
 #btnScrollToTop{
