@@ -20,6 +20,11 @@
     <section data-aos="fade-down" class="section-1" style="color: white">
       <h1>Fayas Noushad - Brief Bio</h1>
     </section>
+
+    <!-- Scroll to top button -->
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
     
     <hr width="100%"/>
     
@@ -44,11 +49,8 @@
     <section data-aos="fade-up" class="section-3" id="footer"></section>
     <hr width="100%"/>
     
-    <!-- animation script -->
+    <!-- Animation Script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
     
     <!-- Common Script -->
     <script
@@ -56,12 +58,7 @@
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous">
     </script>
-    <script> 
-      $(function(){
-        $("#header").load("/common/header.html");
-        $("#footer").load("/common/footer.html");
-      });
-    </script>
+    <script src="/common/index.js"></script>
     
   </body>
 </html>
