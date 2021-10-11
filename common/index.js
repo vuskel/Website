@@ -1,9 +1,9 @@
 AOS.init();
 
 // Scroll to top button
-const Top = document.querySelector("#top");
+const btnScrollToTop = document.querySelector("#btnScrollToTop");
 
-Top.addEventListener("click", function(){
+btnScrollToTop.addEventListener("click", function(){
     window.scrollTo({
         top: 0,
         left: 0,
