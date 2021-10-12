@@ -2,11 +2,12 @@
 
 A Personal website repository template of Fayas Noushad ( <a href="https://fayas.me">fayas.me</a> ), where you can get academic background, projects and contact information.
 
-**Built With**
+**Built with:**
 
-- 👩‍💻 HTML
-- 🎨 CSS
-- 🧙‍♂️ Animate on scoll (AOS)
+    👨‍💻 HTML
+    🎨 CSS
+    📒 JavaScript
+    🧙‍♂️ Animate on scoll (AOS)
 
 **Visit website:** [fayas.me](https://fayas.me)
 
