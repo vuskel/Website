@@ -4,7 +4,7 @@ a {
     transition: color 0.25s;
 }
 
-a:hover{
+a:hover {
     color: black;
     background-color: white;
 }
