@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
