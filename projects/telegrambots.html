@@ -3,8 +3,11 @@
   <head>
     <title>Fayas Noushad - Telegram Bots</title>
     <link rel="icon" href="icon.png" type="image/x-icon"/>
-    <link href="/styles/style.css" rel="stylesheet" type="text/css"/>
-    <!-- animation css -->
+    
+    <!-- Common Style -->
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    
+    <!-- Animation Script -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
   </head>
   <body>
@@ -126,17 +129,10 @@
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous">
     </script>
-    <script> 
-      $(function(){
-        $("#header").load("/common/header.html");
-        $("#footer").load("/common/footer.html");
-      });
-    </script>
+    <script src="/common/index.js"></script>
 
     <!-- animation script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    
   </body>
 </html>
