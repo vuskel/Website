@@ -3,10 +3,17 @@
   <head>
     <title>Fayas Noushad - Accounts</title>
     <link rel="icon" href="icon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link href="/styles/style.css" rel="stylesheet" type="text/css"/>
     
-    <!-- animation css -->
+    <!-- Linktree Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+    <!-- Scroll to top button -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    
+    <!-- Common Style -->
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    
+    <!-- Animation Style -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     
     <!-- Style of accounts -->
@@ -20,6 +27,11 @@
     
     <!-- Header -->
     <header id="header"></header>
+
+    <!-- Scroll to top button -->
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
     
     <hr width="100%"/>
     
@@ -115,11 +127,8 @@
 
     <hr width="100%"/>
 
-    <!-- animation script -->
+    <!-- Animation Script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
     
     <!-- Common Script -->
     <script
@@ -127,12 +136,7 @@
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous">
     </script>
-    <script> 
-      $(function(){
-        $("#header").load("/common/header.html");
-        $("#footer").load("/common/footer.html");
-      });
-    </script>
+    <script src="/common/index.js"></script>
     
   </body>
 </html>

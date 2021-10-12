@@ -3,10 +3,14 @@
   <head>
     <title>Fayas Noushad - Personal Website</title>
     <link rel="icon" href="icon.png" type="image/x-icon"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link href="/styles/style.css" rel="stylesheet" type="text/css"/>
     
-    <!-- animation css -->
+    <!-- Scroll to top button -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    
+    <!-- Common Style -->
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    
+    <!-- Animation Style -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     
   </head>
@@ -91,23 +95,8 @@
     <section data-aos="fade-up" class="section-6" id="footer"></section>
     <hr width="100%"/>
 
-    <!-- animation script -->
+    <!-- Animation Script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    
-    <script>
-      AOS.init();
-
-      // Scroll to top button script
-      const btnScrollToTop = document.querySelector("#btnScrollToTop");
-
-      btnScrollToTop.addEventListener("click", function(){
-        window.scrollTo({
-          top: 0,
-          left: 0,
-          behavior: "smooth"
-        });
-      });
-    </script>
     
     <!-- Common Script -->
     <script
@@ -115,12 +104,7 @@
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous">
     </script>
-    <script> 
-      $(function(){
-        $("#header").load("/common/header.html");
-        $("#footer").load("/common/footer.html");
-      });
-    </script>
+    <script src="/common/index.js"></script>
     
   </body>
 </html>
