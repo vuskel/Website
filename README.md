@@ -7,7 +7,7 @@ A Personal website repository template of Fayas Noushad ( <a href="https://fayas
     👨‍💻 HTML
     🎨 CSS
     📒 JavaScript
-    🧙‍♂️ Animate on scoll (AOS)
+    🎆 Animate on scoll (AOS)
 
 **Visit website:** [fayas.me](https://fayas.me)
 
