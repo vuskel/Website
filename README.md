@@ -1,15 +1,15 @@
-# Personal Website
+# Personal Website ( <a href="https://fayas.me">fayas.me</a> )
 
 A Personal website repository template of Fayas Noushad ( <a href="https://fayas.me">fayas.me</a> ), where you can get academic background, projects and contact information.
 
-**Built with:**
+---
+
+## Built with
 
     👨‍💻 HTML
     🎨 CSS
     📒 JavaScript
     🎆 Animate on scoll (AOS)
-
-**Visit website:** [fayas.me](https://fayas.me)
 
 ---
 
@@ -26,3 +26,5 @@ A Personal website repository template of Fayas Noushad ( <a href="https://fayas
 
 - [FayasNoushad](https://github.com/FayasNoushad)
 - [Contributors](https://github.com/FayasNoushad/Website/graphs/contributors)
+
+---
