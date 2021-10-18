@@ -7,8 +7,7 @@
 </h1>
 
 <p align="center">
-    A Personal website repository template of Fayas Noushad ( <a href="https://fayas.me">fayas.me</a> ),
-    where you can get academic background, projects and contact information.
+    A personal website repository template of Fayas Noushad.
 </p>
 
 ---
