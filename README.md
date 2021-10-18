@@ -20,6 +20,23 @@
 
 ---
 
+## Directories
+
+- [Website](https://fayas.me)
+  - [Brief Bio](https://fayas.me/bio)
+  - [Education](https://fayas.me/education)
+  - [Accounts](https://fayas.me/accounts)
+  - [Projects](https://fayas.me/projects)
+    - [APIs](https://fayas.me/projects/apis)
+    - [Python Packages](https://fayas.me/projects/packages/python)
+    - [Telegram Repositories](https://fayas.me/projects/telegramrepositories)
+    - [Telegram Bots](https://fayas.me/projects/telegrambots)
+  - [Donate](https://fayas.me/donate)
+  - [Gallery](https://fayas.me/gallery)
+  - [Timeline](https://fayas.me/timeline)
+
+---
+
 ## Built with
 
     👨‍💻 HTML
