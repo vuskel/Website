@@ -23,6 +23,7 @@
 ## Directories
 
 - [Website](https://fayas.me)
+  - [Home](https://fayas.me/home)
   - [Brief Bio](https://fayas.me/bio)
   - [Education](https://fayas.me/education)
   - [Accounts](https://fayas.me/accounts)
