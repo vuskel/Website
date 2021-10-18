@@ -9,6 +9,11 @@
 <p align="center">
     A personal website repository template of Fayas Noushad.
 </p>
+<h3 align="center">
+    • <a href="https://fayas.me">GitHub</a>
+    • <a href="https://fayas.vercel.app">Vercel</a>
+    • <a href="https://fayas.netlify.app">Netlify</a>
+</h3>
 
 ---
 
