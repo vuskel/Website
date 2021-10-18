@@ -1,6 +1,15 @@
-# Personal Website ( <a href="https://fayas.me">fayas.me</a> )
+<h1 align="center">
+    <a href="https://fayas.me">
+        <img width="30%" alt="Icon" src="/icon.png"/>
+    </a>
+    <br/>
+    Personal Website ( <a href="https://fayas.me">fayas.me</a> )
+</h1>
 
-A Personal website repository template of Fayas Noushad ( <a href="https://fayas.me">fayas.me</a> ), where you can get academic background, projects and contact information.
+<p align="center">
+    A Personal website repository template of Fayas Noushad ( <a href="https://fayas.me">fayas.me</a> ),
+    where you can get academic background, projects and contact information.
+</p>
 
 ---
 
