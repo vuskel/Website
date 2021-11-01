@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-    A personal website repository template of Fayas Noushad.
+    A personal website repository of Fayas Noushad.
 </p>
 
 ---
