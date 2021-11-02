@@ -22,18 +22,16 @@
 
 ## Directories
 
-- [Website](https://fayas.me)
-  - [Home](https://fayas.me/home)
-  - [Brief Bio](https://fayas.me/bio)
-  - [Education](https://fayas.me/education)
-  - [Accounts](https://fayas.me/accounts)
-  - [Projects](https://fayas.me/projects)
-    - [APIs](https://fayas.me/projects/apis)
-    - [Telegram Repositories](https://fayas.me/projects/telegramrepositories)
-    - [Telegram Bots](https://fayas.me/projects/telegrambots)
-  - [Donate](https://fayas.me/donate)
-  - [Gallery](https://fayas.me/gallery)
-  - [Timeline](https://fayas.me/timeline)
+- [Home](https://fayas.me/home)
+- [Education](https://fayas.me/education)
+- [Accounts](https://fayas.me/accounts)
+- [Projects](https://fayas.me/projects)
+  - [APIs](https://fayas.me/projects/apis)
+  - [Telegram Repositories](https://fayas.me/projects/telegramrepositories)
+  - [Telegram Bots](https://fayas.me/projects/telegrambots)
+- [Donate](https://fayas.me/donate)
+- [Gallery](https://fayas.me/gallery)
+- [Timeline](https://fayas.me/timeline)
 
 ---
 
